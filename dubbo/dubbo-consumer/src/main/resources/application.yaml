@@ -1,0 +1,11 @@
+server:
+  port: 18081
+spring:
+  application:
+    name: car-consumer
+dubbo:
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  consumer:
+    version: 1.0.0
+    check: false

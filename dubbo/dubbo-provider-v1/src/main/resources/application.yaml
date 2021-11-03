@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: car-provider-v1
+dubbo:
+  scan:
+    base-packages: com.itheima.car.service.impl
+  application:
+    name: ${spring.application.name}
+  protocol:
+    port: 18082
+    name: dubbo
+    id: dubbo
+  registry:
+    #zookeeper
+    address: zookeeper://127.0.0.1:2181
+  provider:
+    version: 1.0.0

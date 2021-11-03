@@ -1,0 +1,16 @@
+package com.itheima.car;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/*****
+ * @Author:
+ * @Description:
+ ****/
+@SpringBootApplication
+public class CarProviderV1Application {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CarProviderV1Application.class,args);
+    }
+}

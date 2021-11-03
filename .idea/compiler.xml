@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1000" />
+    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Djava.library.path=D:\\soft\\OpenCV\\opencv\\build\\java\\x64" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zookeeper-prometheus-metrics" />
+        <module name="zookeeper" />
+        <module name="dubbo-provider-v1" />
+        <module name="dubbo-provider-v2" />
+        <module name="zk-lock1" />
+        <module name="zookeeper-recipes-queue" />
+        <module name="zk-lock2" />
+        <module name="zookeeper-recipes-lock" />
+        <module name="zookeeper-recipes-election" />
+        <module name="zookeeper-jute" />
+        <module name="zookeeper-compatibility-tests-curator" />
+        <module name="dubbo-api" />
+        <module name="dubbo-consumer" />
+        <module name="zookeeper-it" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="dubbo" target="1.8" />
+      <module name="dubbo-api" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-provider-v1" target="1.8" />
+      <module name="dubbo-provider-v2" target="1.8" />
+      <module name="parent" target="1.8" />
+      <module name="zk-lock1" target="1.8" />
+      <module name="zk-lock2" target="1.8" />
+      <module name="zookeeper" target="1.8" />
+      <module name="zookeeper-assembly" target="1.8" />
+      <module name="zookeeper-client" target="1.8" />
+      <module name="zookeeper-compatibility-tests" target="1.8" />
+      <module name="zookeeper-compatibility-tests-curator" target="1.8" />
+      <module name="zookeeper-contrib" target="1.8" />
+      <module name="zookeeper-docs" target="1.8" />
+      <module name="zookeeper-it" target="1.8" />
+      <module name="zookeeper-jute" target="1.8" />
+      <module name="zookeeper-metrics-providers" target="1.8" />
+      <module name="zookeeper-prometheus-metrics" target="1.8" />
+      <module name="zookeeper-recipes" target="1.8" />
+      <module name="zookeeper-recipes-election" target="1.8" />
+      <module name="zookeeper-recipes-lock" target="1.8" />
+      <module name="zookeeper-recipes-queue" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zookeeper" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-compatibility-tests-curator" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-it" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-jute" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-prometheus-metrics" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-recipes-election" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-recipes-lock" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+      <module name="zookeeper-recipes-queue" options="-Werror -Xlint:deprecation -Xlint:unchecked -Xlint:-options -Xdoclint:-missing -Xpkginfo:always" />
+    </option>
+  </component>
+</project>
