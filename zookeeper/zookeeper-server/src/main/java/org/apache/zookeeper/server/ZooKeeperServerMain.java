@@ -112,6 +112,7 @@ public class ZooKeeperServerMain {
             }
             ServerMetrics.metricsProviderInitialized(metricsProvider);
             ProviderRegistry.initialize();
+            //zk创建节点的本质操作就是写日志，那么就需要一个对象【txnLog】来执行这个写操作
             // 根据参数创建日志目录（事务日志目录、快照日志目录） FileTxnSnapLogL:事务数据操作
             txnLog = new FileTxnSnapLog(config.dataLogDir, config.dataDir);
             //JvmPauseMonitor监控
